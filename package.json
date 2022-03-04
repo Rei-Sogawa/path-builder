@@ -1,13 +1,11 @@
 {
   "private": false,
   "name": "@rei-sogawa/path-builder",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
