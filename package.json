@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@rei-sogawa/path-builder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": "https://github.com/Rei-Sogawa/path-builder.git",

@@ -1,4 +1,4 @@
-type ExtractPathParams<T> =
+export type ExtractPathParams<T> =
   T extends `${infer _Start}:${infer Param}/${infer Rest}`
     ? { [k in Param | keyof ExtractPathParams<Rest>]: string }
     : T extends `${infer _Start}:${infer Param}`
